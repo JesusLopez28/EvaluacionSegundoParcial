@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EvaluacionSegundoParcial" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/backgroundLight</item>
+    </style>
+
+    <style name="ToolbarMenuStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:itemTextAppearance">
+            @style/TextAppearance.AppCompat.Widget.ActionBar.Menu
+        </item>
+    </style>
+
+
+    <style name="Theme.EvaluacionSegundoParcial" parent="Base.Theme.EvaluacionSegundoParcial" />
+</resources>
